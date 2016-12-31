@@ -1,0 +1,92 @@
+body h2, h3, .Icomoon h4 {
+	font-family:'Merriweather' 
+}
+
+/*-------------------------------------HEADER*/
+ header .navbar {
+	margin-bottom:0px;
+}
+
+.navbar-default {
+	background: #da2c38;
+	border: 1px solid  #da2c38; 
+}
+
+.navbar-default .navbar-header a {
+	color: #da2c38;
+	font-family:'Merriweather' ;
+}
+
+.navbar-default .navbar-right li a {
+	color: #f4f0bb;
+}
+
+/*------------------------------------HERO-SECTION*/
+.hero-section {
+	background-image: url("img/hug.jpg");
+	background-size: cover;
+	background-position: center center;
+	color: #f4f0bb;
+}
+.hero-section .opacity {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.hero-section .back {
+	padding-top: 15%;
+	padding-bottom: 20%;
+}
+/*--------------------------------SO CREAMY-SECTION*/
+.so-creamy {
+	background-color: #f4f0bb;
+	color: #da2c38; }
+
+.so-creamy .padding1{
+	padding: 3% 0;
+	text-align: center; }
+
+.so-creamy .padding1 img {
+	width: 100%;
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+
+/*-----------------------------ABOUT CREAMY-SECTION*/
+.about-creamy {
+	background-color: #da2c38;
+	color: #f4f0bb; }
+
+.about-creamy .text{
+	padding: 3% 0; }
+/*-----------------------------ICONOS-SECTION*/
+.Icomoon {
+	background-color: #f4f0bb;
+	color: #da2c38;
+	padding: 3% 0; }
+
+.Icomoon i {
+	font-size: 43px;
+}
+/*-------------------------------------FOOTER*/
+footer {
+	background-color: #da2c38;
+	color: #f4f0bb;
+}
+
+footer .padding2 {
+	padding: 2% 0;
+}
+
+@media screen and (max-width: 768px) {
+	.hero-section .back {
+	padding-top: 15%;
+	padding-bottom: 36%; }
+
+	.navbar-default .navbar-header button:focus {
+		background: #da2c38;
+	}
+
+	.navbar-default .navbar-header button:hover {
+		background: #da2c38;
+	}
+}
